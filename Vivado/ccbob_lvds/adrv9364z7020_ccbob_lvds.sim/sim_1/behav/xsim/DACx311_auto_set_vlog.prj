@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/bd/system/ipshared/8c62/hdl" --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/bd/system/ipshared/27b8" --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/bd/system/ipshared/1ddd/hdl/verilog" --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/bd/system/ipshared/b2d0/hdl/verilog" --include "../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/ip/b205_clk_gen" --include "/tools/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
+"../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/new/DACx311_auto_spi.v" \
+"../../../../adrv9364z7020_ccbob_lvds.srcs/sources_1/new/DA_shiver.v" \
+"../../../../adrv9364z7020_ccbob_lvds.srcs/sim_1/new/DACx311_auto_set.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

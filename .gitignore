@@ -1,0 +1,8 @@
+*.Xil
+Vivado/ccbob_lvds/adrv9364z7020_ccbob_lvds.cache
+Vivado/ccbob_lvds/adrv9364z7020_ccbob_lvds.hw
+Vivado/ccbob_lvds/adrv9364z7020_ccbob_lvds.ip_user_files
+Vivado/ccbob_lvds/adrv9364z7020_ccbob_lvds.runs
+Vivado/ccbob_lvds/adrv9364z7020_ccbob_lvds.sdk
+*.log
+*.jou
